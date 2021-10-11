@@ -16,36 +16,49 @@ EXAMPLE 1
 
 printSquareStar(5); should print the following:
 
-→ NOTE: For text in Code Blocks below, use code icon {...}  on Udemy
+1| *****
 
-/*****
-/** **
-/* * *
-/** **
-/*****
+2| ** **
+
+3| * * *
+
+4| ** **
+
+5| *****
 
 
 Explanation:
 
-*****   5 stars
-** **   2 stars space 2 stars
-* * *   1 star space 1 star space 1 star
-** **   2 stars space 2 stars
-*****   5 stars
+1| *****   5 stars
+
+2| ** **   2 stars space 2 stars
+
+3| * * *   1 star space 1 star space 1 star
+
+4| ** **   2 stars space 2 stars
+
+5| *****   5 stars
 
 
 EXAMPLE 2
 
 printSquareStar(8); should print the following:
 
-********
-**    **
-* *  * *
-*  **  *
-*  **  *
-* *  * *
-**    **
-********
+1| ********
+
+2| **    **
+
+3| * *  * *
+
+4| *  **  *
+
+5| *  **  *
+
+6| * *  * *
+
+7| **    **
+
+8| ********
 
 
 The patterns above consist of a number of rows and columns (where number is the number of rows to print). For each row or column, stars are printed based on four conditions (Read them carefully):
